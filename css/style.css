@@ -251,6 +251,10 @@ main {
 }
 
 @media (max-width:800px) {
+    main {
+        width: 99.8%;
+    }
+    
     .legenda { 
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
@@ -268,7 +272,30 @@ main {
         grid-column: 3 / 5;
         grid-row: 3 / 3;
     }
+
+    .cabecalho nav {
+        font-size: 0.8em;
+    }
 }
 
+@media (max-width:650px) {
+    main {
+        width: 99.8%;
+    }
 
+    .cabecalho {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+
+    .cabecalho nav {
+        font-size: 0.8em;
+    }
+}
 
