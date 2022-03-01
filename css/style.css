@@ -43,8 +43,19 @@ body {
     border-radius: 10px;
 }
 
+/* body */
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+}
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     background-color: rgb(255, 255, 255);
     justify-content: center;
@@ -53,7 +64,7 @@ body {
 .elemento {
     width: 60px;
     height: 60px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     position: relative;
     display: flex;
@@ -85,57 +96,126 @@ body {
     margin-bottom: 5px;
 }
 
+.legenda {
+    display: flex;
+
+}
+
+.tipos {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tipos .gasesN {
+    margin-right: 0px;
+}
+
 /* Familias */
 
 .nMetal {
-    background-color: rgb(150, 231, 28);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(146, 218, 40);
+    box-shadow: 0px 0px 5px 1px greenyellow;
 }
 
 .gasesN {
-    background-color: rgb(109, 123, 252)
+    background-color: white;
+    border: 2px solid rgb(109, 123, 252);
+    box-shadow: 0px 0px 5px 1px rgb(109, 123, 252);
 }
 
 .metalAlc {
-    background-color: rgb(255, 208, 122);
+    background-color: white;
+    border: 2px solid rgb(216, 147, 44);
+    box-shadow: 0px 0px 5px 1px rgb(255, 175, 54);
 }
 
 .metalAlcTer {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
+    border: 2px solid rgb(204, 207, 35);
+    box-shadow: 0px 0px 5px 1px rgb(251, 255, 44);
 }
 
 .metalTrans {
-    background-color: rgb(248, 147, 136);
+    background-color: white;
+    border: 2px solid rgb(253, 112, 87);
+    box-shadow: 0px 0px 5px 1px rgb(253, 112, 87);
 }
 
 .halogenio {
-    background-color: lightskyblue;
+    background-color: white;
+    border: 2px solid rgb(60, 207, 207);
+    box-shadow: 0px 0px 5px 1px rgb(87, 253, 253);
 }
 
 .semiMetal {
-    background-color: rgb(15, 207, 166);
+    background-color: white;
+    border: 2px solid rgb(17, 167, 54);
+    box-shadow: 0px 0px 5px 1px rgb(17, 167, 54);
 }
 
 .outrosMetal {
-    background-color: lightblue;
+    background-color: white;
+    border: 2px solid rgb(21, 70, 228);
+    box-shadow: 0px 0px 5px 1px rgb(21, 70, 228);
 }
 
 .lantanideo {
-    background-color: rgb(47, 253, 253);
+    background-color: white;
+    border: 2px solid rgb(211, 21, 228);
+    box-shadow: 0px 0px 5px 1px rgb(211, 21, 228);
 }
  .actinidios{
-     background-color: rgb(199, 143, 252);
- }
-main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100vh;
-    width: 90%;
-    margin: auto;
-    padding-top: 40px;
     background-color: white;
+    border: 2px solid rgb(118, 21, 228);
+    box-shadow: 0px 0px 5px 1px rgb(118, 21, 228);
+ }
+
+/* hover */
+
+.elemento.nMetal:hover {
+    transform: scale(1.12);
+    
 }
 
+.elemento.metalAlc:hover {
+    transform: scale(1.15);
+}
 
+.elemento.metalAlcTer:hover {
+    transform: scale(1.15);
+}
 
+.elemento.metalTrans:hover {
+    transform: scale(1.15);
+}
+
+.elemento.outrosMetal:hover {
+    transform: scale(1.15);
+}
+
+.elemento.semiMetal:hover {
+    transform: scale(1.15);
+}
+
+.elemento.lantanideo:hover {
+    transform: scale(1.15);
+}
+
+.elemento.actinidios:hover {
+    transform: scale(1.15);    
+}
+
+.elemento.halogenio:hover {
+    transform: scale(1.15);
+}
+
+.elemento.gasesN:hover {
+    transform: scale(1.15);
+}
 
 
 
