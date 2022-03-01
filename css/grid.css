@@ -1,8 +1,8 @@
 /* Tabela Periodica */
 .tabelaPeriodica {
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
-    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: 60px 60px 60px 10px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 10px 60px 60px 60px;
     gap:5px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .elemento:nth-child(2) {
-    grid-column: 18 / 18;
+    grid-column: 19 / 19;
     grid-row: 1 / 2;
 }
 
@@ -27,32 +27,32 @@
 }
 
 .elemento:nth-child(5) {
-    grid-column: 13 / 14;
-    grid-row: 2 / 3;
-}
-
-.elemento:nth-child(6) {
     grid-column: 14 / 15;
     grid-row: 2 / 3;
 }
 
-.elemento:nth-child(7) {
+.elemento:nth-child(6) {
     grid-column: 15 / 16;
     grid-row: 2 / 3;
 }
 
-.elemento:nth-child(8) {
+.elemento:nth-child(7) {
     grid-column: 16 / 17;
     grid-row: 2 / 3;
 }
 
-.elemento:nth-child(9) {
+.elemento:nth-child(8) {
     grid-column: 17 / 18;
     grid-row: 2 / 3;
 }
 
+.elemento:nth-child(9) {
+    grid-column: 18 / 19;
+    grid-row: 2 / 3;
+}
+
 .elemento:nth-child(10) {
-    grid-column: 18 / 18;
+    grid-column: 19 / 19;
     grid-row: 2 / 3;
 }
 
@@ -71,28 +71,33 @@
     grid-row: 3 / 4;
 }
 
-.elemento:nth-child(14) {
+.elemento:nth-child(13) {
     grid-column: 14 / 15;
     grid-row: 3 / 4;
 }
 
-.elemento:nth-child(15) {
+.elemento:nth-child(14) {
     grid-column: 15 / 16;
     grid-row: 3 / 4;
 }
 
-.elemento:nth-child(16) {
+.elemento:nth-child(15) {
     grid-column: 16 / 17;
     grid-row: 3 / 4;
 }
 
-.elemento:nth-child(17) {
+.elemento:nth-child(16) {
     grid-column: 17 / 18;
     grid-row: 3 / 4;
 }
 
-.elemento:nth-child(18) {
+.elemento:nth-child(17) {
     grid-column: 18 / 18;
+    grid-row: 3 / 4;
+}
+
+.elemento:nth-child(18) {
+    grid-column: 19 / 19;
     grid-row: 3 / 4;
 }
 
@@ -112,77 +117,77 @@
 }
 
 .elemento:nth-child(22) {
-    grid-column: 4 / 5;
-    grid-row: 4 / 5;
-}
-
-.elemento:nth-child(23) {
     grid-column: 5 / 6;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(24) {
+.elemento:nth-child(23) {
     grid-column: 6 / 7;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(25) {
+.elemento:nth-child(24) {
     grid-column: 7 / 8;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(26) {
+.elemento:nth-child(25) {
     grid-column: 8 / 9;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(27) {
+.elemento:nth-child(26) {
     grid-column: 9 / 10;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(28) {
+.elemento:nth-child(27) {
     grid-column: 10 / 11;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(29) {
+.elemento:nth-child(28) {
     grid-column: 11 / 12;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(30) {
+.elemento:nth-child(29) {
     grid-column: 12 / 13;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(31) {
+.elemento:nth-child(30) {
     grid-column: 13 / 14;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(32) {
+.elemento:nth-child(31) {
     grid-column: 14 / 15;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(33) {
+.elemento:nth-child(32) {
     grid-column: 15 / 16;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(34) {
+.elemento:nth-child(33) {
     grid-column: 16 / 17;
     grid-row: 4 / 5;
 }
 
-.elemento:nth-child(35) {
+.elemento:nth-child(34) {
     grid-column: 17 / 18;
     grid-row: 4 / 5;
 }
 
+.elemento:nth-child(35) {
+    grid-column: 18 / 19;
+    grid-row: 4 / 5;
+}
+
 .elemento:nth-child(36) {
-    grid-column: 18 / 18;
+    grid-column: 19 / 19;
     grid-row: 4 / 5;
 }
 
@@ -202,77 +207,77 @@
 }
 
 .elemento:nth-child(40) {
-    grid-column: 4 / 5;
-    grid-row: 5 / 6;
-}
-
-.elemento:nth-child(41) {
     grid-column: 5 / 6;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(42) {
+.elemento:nth-child(41) {
     grid-column: 6 / 7;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(43) {
+.elemento:nth-child(42) {
     grid-column: 7 / 8;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(44) {
+.elemento:nth-child(43) {
     grid-column: 8 / 9;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(45) {
+.elemento:nth-child(44) {
     grid-column: 9 / 10;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(46) {
+.elemento:nth-child(45) {
     grid-column: 10 / 11;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(47) {
+.elemento:nth-child(46) {
     grid-column: 11 / 12;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(48) {
+.elemento:nth-child(47) {
     grid-column: 12 / 13;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(49) {
+.elemento:nth-child(48) {
     grid-column: 13 / 14;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(50) {
+.elemento:nth-child(49) {
     grid-column: 14 / 15;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(51) {
+.elemento:nth-child(50) {
     grid-column: 15 / 16;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(52) {
+.elemento:nth-child(51) {
     grid-column: 16 / 17;
     grid-row: 5 / 6;
 }
 
-.elemento:nth-child(53) {
+.elemento:nth-child(52) {
     grid-column: 17 / 18;
     grid-row: 5 / 6;
 }
 
+.elemento:nth-child(53) {
+    grid-column: 18 / 19;
+    grid-row: 5 / 6;
+}
+
 .elemento:nth-child(54) {
-    grid-column: 18 / 18;
+    grid-column: 19 / 19;
     grid-row: 5 / 6;
 }
 
@@ -292,144 +297,148 @@
 }
 
 .elemento:nth-child(58) {
-    grid-column: 4 / 5;
-    grid-row: 8 / 9;
+    grid-column: 5 / 6;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(59) {
-    grid-column: 5 / 6;
-    grid-row: 8 / 9;
+    grid-column: 6 / 7;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(60) {
-    grid-column: 6 / 7;
-    grid-row: 8 / 9;
+    grid-column: 7 / 8;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(61) {
-    grid-column: 7 / 8;
-    grid-row: 8 / 9;
+    grid-column: 8 / 9;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(62) {
-    grid-column: 8 / 9;
-    grid-row: 8 / 9;
+    grid-column: 9 / 10;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(63) {
-    grid-column: 9 / 10;
-    grid-row: 8 / 9;
+    grid-column: 10 / 11;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(64) {
-    grid-column: 10 / 11;
-    grid-row: 8 / 9;
+    grid-column: 11 / 12;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(65) {
-    grid-column: 11 / 12;
-    grid-row: 8 / 9;
+    grid-column: 12 / 13;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(66) {
-    grid-column: 12 / 13;
-    grid-row: 8 / 9;
+    grid-column: 13 / 14;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(67) {
-    grid-column: 13 / 14;
-    grid-row: 8 / 9;
+    grid-column: 14 / 15;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(68) {
-    grid-column: 14 / 15;
-    grid-row: 8 / 9;
+    grid-column: 15 / 16;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(69) {
-    grid-column: 15 / 16;
-    grid-row: 8 / 9;
+    grid-column: 16 / 17;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(70) {
-    grid-column: 16 / 17;
-    grid-row: 8 / 9;
+    grid-column: 17 / 18;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(71) {
-    grid-column: 17 / 17;
-    grid-row: 8 / 9;
+    grid-column: 18 / 18;
+    grid-row: 9 / 10;
 }
 
 .elemento:nth-child(72) {
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     grid-row: 6 / 7;
 }
 
 .elemento:nth-child(73) {
-    grid-column: 5 / 6;
-    grid-row: 6 / 7;
-}
-
-.elemento:nth-child(74) {
     grid-column: 6 / 7;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(75) {
+.elemento:nth-child(74) {
     grid-column: 7 / 8;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(76) {
+.elemento:nth-child(75) {
     grid-column: 8 / 9;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(77) {
+.elemento:nth-child(76) {
     grid-column: 9 / 10;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(78) {
+.elemento:nth-child(77) {
     grid-column: 10 / 11;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(79) {
+.elemento:nth-child(78) {
     grid-column: 11 / 12;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(80) {
+.elemento:nth-child(79) {
     grid-column: 12 / 13;
     grid-row: 6 / 7;
 }
 
-.elemento:nth-child(81) {
+.elemento:nth-child(80) {
     grid-column: 13 / 14;
     grid-row: 6 / 7;
 }
-.elemento:nth-child(82) {
+
+.elemento:nth-child(81) {
     grid-column: 14 / 15;
     grid-row: 6 / 7;
 }
-.elemento:nth-child(83) {
+
+.elemento:nth-child(82) {
     grid-column: 15 / 16;
     grid-row: 6 / 7;
 }
-.elemento:nth-child(84) {
+
+.elemento:nth-child(83) {
     grid-column: 16 / 17;
     grid-row: 6 / 7;
 }
-.elemento:nth-child(85) {
+.elemento:nth-child(84) {
     grid-column: 17 / 18;
     grid-row: 6 / 7;
 }
-.elemento:nth-child(86) {
+.elemento:nth-child(85) {
     grid-column: 18 / 18;
     grid-row: 6 / 7;
 }
+
+.elemento:nth-child(86) {
+    grid-column: 19 / 19;
+    grid-row: 6 / 7;
+}
+
 .elemento:nth-child(87) {
     grid-column: 1 / 2;
     grid-row: 7 / 8;
@@ -444,138 +453,148 @@
 }
 
 .elemento:nth-child(90) {
-    grid-column: 4 / 5;
-    grid-row: 9 / 9;
-}
-.elemento:nth-child(91) {
     grid-column: 5 / 6;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(92) {
+
+.elemento:nth-child(91) {
     grid-column: 6 / 7;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(93) {
+
+.elemento:nth-child(92) {
     grid-column: 7 / 8;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(94) {
+
+.elemento:nth-child(93) {
     grid-column: 8 / 9;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(95) {
+
+.elemento:nth-child(94) {
     grid-column: 9 / 10;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(96) {
+
+.elemento:nth-child(95) {
     grid-column: 10 / 11;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(97) {
+
+.elemento:nth-child(96) {
     grid-column: 11 / 12;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(98) {
+
+.elemento:nth-child(97) {
     grid-column: 12 / 13;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
 }
-.elemento:nth-child(99) {
+
+.elemento:nth-child(98) {
     grid-column: 13 / 14;
-    grid-row: 9 / 9;
+    grid-row: 10 / 10;
+}
+
+.elemento:nth-child(99) {
+    grid-column: 14 / 15;
+    grid-row: 10 / 10;
 }
 
 .elemento:nth-child(100) {
-    grid-column: 14 / 15;
-    grid-row: 9 / 9;
+    grid-column: 15 / 16;
+    grid-row: 10 / 10;
 }
 
 .elemento:nth-child(101) {
-    grid-column: 15 / 16;
-    grid-row: 9 / 9;
+    grid-column: 16 / 17;
+    grid-row: 10 / 10;
 }
 
 .elemento:nth-child(102) {
-    grid-column: 16 / 17;
-    grid-row: 9 / 9;
+    grid-column: 17 / 18;
+    grid-row: 10 / 10;
 }
 
 .elemento:nth-child(103) {
-    grid-column: 17 / 18;
-    grid-row: 9 / 9;
+    grid-column: 18 / 19;
+    grid-row: 10 / 10;
 }
 
 .elemento:nth-child(104) {
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     grid-row: 7 / 8;
 }
 
 .elemento:nth-child(105) {
-    grid-column: 5 / 6;
-    grid-row: 7 / 8;
-}
-
-.elemento:nth-child(106) {
     grid-column: 6 / 7;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(107) {
+.elemento:nth-child(106) {
     grid-column: 7 / 8;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(108) {
+.elemento:nth-child(107) {
     grid-column: 8 / 9;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(109) {
+.elemento:nth-child(108) {
     grid-column: 9 / 10;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(110) {
+.elemento:nth-child(109) {
     grid-column: 10 / 11;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(111) {
+.elemento:nth-child(110) {
     grid-column: 11 / 12;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(112) {
+.elemento:nth-child(111) {
     grid-column: 12 / 13;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(113) {
+.elemento:nth-child(112) {
     grid-column: 13 / 14;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(114) {
+.elemento:nth-child(113) {
     grid-column: 14 / 15;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(115) {
+.elemento:nth-child(114) {
     grid-column: 15 / 16;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(116) {
+.elemento:nth-child(115) {
     grid-column: 16 / 17;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(117) {
+.elemento:nth-child(116) {
     grid-column: 17 / 18;
     grid-row: 7 / 8;
 }
 
-.elemento:nth-child(118) {
+.elemento:nth-child(117) {
     grid-column: 18 / 18;
     grid-row: 7 / 8;
 }
+
+.elemento:nth-child(118) {
+    grid-column: 19 / 19;
+    grid-row: 7 / 8;
+}
+
 
