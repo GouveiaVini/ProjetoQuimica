@@ -219,4 +219,23 @@ main {
 
 
 
+@media (max-width:1770px) {
+    .cabecalho {
+        background-color: aqua;
+    }
+
+    .tipos {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:1500px) {
+    .cabecalho {
+        background-color: rgb(225, 0, 255);
+    }
+
+    .tipos {
+        font-size: 0.8em;
+    }
+}
 
