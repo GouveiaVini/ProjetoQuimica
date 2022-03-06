@@ -104,7 +104,7 @@ elementoNa.addEventListener ('click', event => {
 })
 
 let elementoMg = tabelaPeriodica.querySelector("#magnesio")
-elemento.addEventListener ('click', event => {
+elementoMg.addEventListener ('click', event => {
     mostraResumo()
     atualizaResumo(12)
     limpaClasse()
@@ -167,189 +167,189 @@ elementoK.addEventListener ('click', event => {
     elementoTabelaResumo.classList.add("metalAlc")
 })
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(20)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoCa = tabelaPeriodica.querySelector("#calcio")
+elementoCa.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(20)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalAlcTer")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(21)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoSc = tabelaPeriodica.querySelector("#escandio")
+elementoSc.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(21)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(22)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoTi = tabelaPeriodica.querySelector("#titanio")
+elementoTi.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(22)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(23)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoV = tabelaPeriodica.querySelector("#vanadio")
+elementoV.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(23)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(24)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoCr = tabelaPeriodica.querySelector("#cromo")
+elementoCr.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(24)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(25)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoMn = tabelaPeriodica.querySelector("#manganes")
+elementoMn.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(25)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(26)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoFe = tabelaPeriodica.querySelector("#ferro")
+elementoFe.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(26)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(27)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoCo = tabelaPeriodica.querySelector("#cobalto")
+elementoCo.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(27)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(28)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoNi = tabelaPeriodica.querySelector("#niquel")
+elementoNi.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(28)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(29)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoCu = tabelaPeriodica.querySelector("#cobre")
+elementoCu.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(29)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(30)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoZn = tabelaPeriodica.querySelector("#zinco")
+elementoZn.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(30)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(31)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoGa = tabelaPeriodica.querySelector("#galio")
+elementoGa.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(31)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("outrosMetal")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(32)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoGe = tabelaPeriodica.querySelector("#germanio")
+elementoGe.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(32)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("semiMetal")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(33)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoAs = tabelaPeriodica.querySelector("#arsenio")
+elementoAs.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(33)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("semiMetal")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(34)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoSe = tabelaPeriodica.querySelector("#selenio")
+elementoSe.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(34)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("nMetal")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(35)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoBr = tabelaPeriodica.querySelector("#bromo")
+elementoBr.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(35)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("halogenio")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(36)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoKr = tabelaPeriodica.querySelector("#criptonio")
+elementoKr.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(36)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("gasesN")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(37)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoRb = tabelaPeriodica.querySelector("#rubidio")
+elementoRb.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(37)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalAlc")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(38)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoSr = tabelaPeriodica.querySelector("#estroncio")
+elementoSr.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(38)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalAlcTer")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(39)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoY = tabelaPeriodica.querySelector("#itrio")
+elementoY.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(39)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(40)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoZr = tabelaPeriodica.querySelector("#zirconio")
+elementoZr.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(40)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(41)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoNb = tabelaPeriodica.querySelector("#niobio")
+elementoNb.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(41)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
-// let elemento = tabelaPeriodica.querySelector("#id")
-// elemento.addEventListener ('click', event => {
-//     mostraResumo()
-//     atualizaResumo(42)
-//     limpaClasse()
-//     elementoTabelaResumo.classList.add("classe")
-// })
+let elementoMo = tabelaPeriodica.querySelector("#molibdenio")
+elementoMo.addEventListener ('click', event => {
+    mostraResumo()
+    atualizaResumo(42)
+    limpaClasse()
+    elementoTabelaResumo.classList.add("metalTrans")
+})
 
 // let elemento = tabelaPeriodica.querySelector("#id")
 // elemento.addEventListener ('click', event => {
