@@ -6,6 +6,12 @@
     gap: 10px;
 }
 
+.resumoElemento {
+    grid-column: 5 / 13;
+    grid-row: 1 / 4;
+
+}
+
 .elemento:nth-child(1) {
     grid-column: 1 / 2;
     grid-row: 1 / 2;

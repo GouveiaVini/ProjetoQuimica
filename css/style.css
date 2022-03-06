@@ -75,6 +75,44 @@ main {
     
 }
 
+.resumoElemento {
+    background-color: rgb(232, 238, 240);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.show {
+    display: flex;
+}
+
+.resumoElemento .info {
+    order: 2;
+      
+}
+
+.resumoElemento .info > div{
+    padding: 10px;
+      
+}
+
+.resumoElemento .elemento {
+    width: 100px;
+    height: 100px;
+}
+
+.resumoElemento .elemento .sigla {
+    font-size: 2.5em;
+}
+
+.resumoElemento .elemento .nome {
+    font-size: 0.9em;
+}
+
 .elemento .sigla {
     position: absolute;
     top: 50%;
@@ -94,6 +132,10 @@ main {
 .elemento .nome {
     font-size: 0.60em;
     margin-bottom: 5px;
+}
+
+.elemento .massa {
+    display: none;
 }
 
 .legenda {
