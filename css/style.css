@@ -100,7 +100,8 @@ main {
 }
 
 .resumoElemento .info {
-    order: 2;      
+    order: 2;
+    width: 185px;      
 }
 
 .resumoElemento .info > div{
