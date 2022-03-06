@@ -312,9 +312,16 @@ main {
 
 @media (max-width:1450px) {
 
+    body {
+        background-image: none;
+        background-color: white;
+    }
+
     main {
         width: 99.9%;
+
     }
+
 
     .tabelaPeriodica {
         overflow: scroll;
