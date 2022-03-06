@@ -54,12 +54,12 @@ function atualizaResumo(numeroMolar) {
     let infoNome = info.querySelector(".nome")
     let infoMassa = info.querySelector(".massa")
 
-    infoNum.textContent = `Numero atômico: ${elementoResumo.num}`
-    infoSigla.textContent = `Símbolo: ${elementoResumo.sigla}`
-    infoNome.textContent = `Nome: ${elementoResumo.nome}`
-    infoMassa.textContent = `Massa molar: ${elementoResumo.massa}`
+    infoNum.textContent = elementoResumo.num
+    infoSigla.textContent = elementoResumo.sigla
+    infoNome.textContent = elementoResumo.nome
+    infoMassa.textContent = elementoResumo.massa
 
-    let elemento = tabela.querySelector(".elemento")
+    let elemento = tabela.querySelector(".elementoDestaque")
     let eleNum = elemento.querySelector(".num")
     let eleSigla = elemento.querySelector(".sigla")
     let eleNome = elemento.querySelector(".nome")

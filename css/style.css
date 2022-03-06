@@ -61,7 +61,7 @@ main {
     justify-content: center;
 }
 
-.elemento {
+.elemento, .elementoDestaque {
     width: 60px;
     height: 60px;
     border: 2px solid rgb(255, 255, 255);
@@ -90,30 +90,37 @@ main {
     display: flex;
 }
 
+.info-num, .info-sigla, .info-nome, .info-massa {
+    display: flex;
+}
+
+.info-num > p, .info-sigla > p, .info-nome > p, .info-massa > p {
+    font-weight: 700;
+    padding-left: 2px;
+}
+
 .resumoElemento .info {
-    order: 2;
-      
+    order: 2;      
 }
 
 .resumoElemento .info > div{
     padding: 10px;
-      
 }
 
-.resumoElemento .elemento {
+.resumoElemento .elementoDestaque {
     width: 100px;
     height: 100px;
 }
 
-.resumoElemento .elemento .sigla {
+.resumoElemento .elementoDestaque .sigla {
     font-size: 2.5em;
 }
 
-.resumoElemento .elemento .nome {
+.resumoElemento .elementoDestaque .nome {
     font-size: 0.9em;
 }
 
-.elemento .sigla {
+.elemento .sigla, .elementoDestaque .sigla {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -121,7 +128,7 @@ main {
     font-size: 1.5em;
 }
 
-.elemento .num {
+.elemento .num, .elementoDestaque .num {
     position: absolute;
     top: 3px;
     left: 3px;
@@ -129,12 +136,12 @@ main {
 }
 
 
-.elemento .nome {
+.elemento .nome, .elementoDestaque .nome {
     font-size: 0.60em;
     margin-bottom: 5px;
 }
 
-.elemento .massa {
+.elemento .massa, .elementoDestaque .massa {
     display: none;
 }
 
@@ -216,47 +223,81 @@ main {
     box-shadow: 0px 0px 5px 1px rgb(118, 21, 228);
  }
 
+ .apagado {
+    border: 2px solid rgb(196, 196, 196);
+    box-shadow: 0px 0px 5px 1px rgb(196, 196, 196);
+}  
+
 /* hover */
 
 .elemento.nMetal:hover {
-    transform: scale(1.12);
-    
+    transform: scale(1.1);   
+}
+.elemento.nMetal.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.metalAlc:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.metalAlc.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.metalAlcTer:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.metalAlcTer.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.metalTrans:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.metalTrans.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.outrosMetal:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.outrosMetal.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.semiMetal:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.semiMetal.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.lantanideo:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.lantanideo.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.actinidios:hover {
-    transform: scale(1.15);    
+    transform: scale(1.1);    
+}
+.elemento.actinidios.apagado:hover {
+    transform: scale(1);    
 }
 
 .elemento.halogenio:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.halogenio.apagado:hover {
+    transform: scale(1);
 }
 
 .elemento.gasesN:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+.elemento.gasesN.apagado:hover {
+    transform: scale(1);
 }
 
 
@@ -268,7 +309,11 @@ main {
     }
 }
 
-@media (max-width:1500px) {
+@media (max-width:1450px) {
+
+    main {
+        width: 99.9%;
+    }
 
     .tabelaPeriodica {
         overflow: scroll;
