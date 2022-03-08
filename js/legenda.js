@@ -125,7 +125,7 @@ metalAlcTer.addEventListener ('click', event => {
 
 let metalTrans = legenda.querySelector(".tipos.metalTrans")
 metalTrans.addEventListener ('click', event => {
-    if (metalTrans) {
+    if (metalTransClicado) {
         for (i = 0; i < elementosDiv.length; i++) {
             elementosDiv[i].classList.remove("apagado")
             
@@ -161,6 +161,7 @@ outrosMetal.addEventListener ('click', event => {
         for (i = 0; i < elementosDiv.length; i++) {
             elementosDiv[i].classList.remove("apagado")
         }
+        console.log("oi")
         outrosMetalClicado = true
     }
 })
